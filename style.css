@@ -46,9 +46,9 @@ ul li a {
 }
 
 ul li a:hover {
-  background: rgba(59, 41, 2, 0.952);
-  border: 1.5px solid yellow;
-  text-shadow: 0px 0px 20px yellow;
+  background: rgba(52, 74, 199, 0.952);
+  border: 1.5px solid blue;
+  text-shadow: 0px 0px 20px white;
   color: white;
 }
 

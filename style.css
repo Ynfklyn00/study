@@ -1,0 +1,54 @@
+body {
+  background: url(./assets/vscode.jpg) no-repeat top center/cover;
+  height: 98.3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body * {
+  font-family: monospace;
+  color: black;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  max-width: 588px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+}
+
+ ul {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 30px;
+  list-style: none;
+
+}
+
+ul li a {
+   border-radius: 16px;
+  display: flex;
+  margin: auto;
+  padding: 16px 30px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.9s ease-in-out;
+
+
+}
+
+ul li a:hover {
+  background: rgba(59, 41, 2, 0.952);
+  border: 1.5px solid yellow;
+  text-shadow: 0px 0px 20px yellow;
+  color: white;
+}
+
